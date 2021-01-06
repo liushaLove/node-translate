@@ -1,0 +1,24 @@
+{
+  "name": "node-translate",
+  "version": "0.0.1",
+  "main": "dist/main.js",
+  "author": "liushaLove <1270842602@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev src/main.js"
+  },
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "dependencies": {
+    "commander": "^3.0.2",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.2.1",
+    "@types/node": "^12.11.2"
+  }
+}
